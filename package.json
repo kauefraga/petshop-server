@@ -2,11 +2,13 @@
   "name": "petshop-server",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/http/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/",
+    "start": "node .",
+    "dev": "tsx watch src/http/server.ts"
   },
-  "author": "",
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.11",
