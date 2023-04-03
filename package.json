@@ -12,8 +12,20 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/rate-limit": "^8.0.0",
+    "@paralleldrive/cuid2": "^2.2.0",
+    "fastify": "^4.14.1"
   }
 }
